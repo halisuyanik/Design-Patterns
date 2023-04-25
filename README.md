@@ -11,7 +11,7 @@ Overall, design patterns can help developers create more efficient, maintainable
 Structural patterns are a category of design patterns that are concerned with the composition of classes and objects. These patterns are used to create relationships between different objects, allowing them to work together in a coordinated and efficient manner.
 
 Structural patterns typically involve the use of inheritance and composition to create complex object structures. They are used to solve problems related to object composition, such as how to create object hierarchies, how to create complex objects from simpler ones, and how to make objects work together to achieve a common goal.
-> <a href="#-Adapter_Anchor"> Adapter Pattern </a> <br/>
+> <a href="#AdapterAnchor"> Adapter Pattern </a> <br/>
 > Bridge Pattern <br/>
 > Filter Pattern <br/>
 > Composite Pattern <br/>
@@ -49,7 +49,7 @@ Overall, creational patterns are useful for creating flexible and maintainable s
 > Builder   Pattern <br/>
 > Prototype  Pattern <br/>
 
-### <div id="Adapter_Anchor"> Adapter Pattern</div>
+### <a name="AdapterAnchor"> Adapter Pattern</a>
 
 The Adapter pattern is a structural design pattern that allows incompatible objects to collaborate. It acts as a bridge between two incompatible interfaces, allowing them to work together without the need to modify their source code.
 
