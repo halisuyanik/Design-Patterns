@@ -20,6 +20,35 @@ Structural patterns typically involve the use of inheritance and composition to 
 > Flweight Patter <br/>
 > Proxy Pattern <br/>
 
+## Behavioral Patterns
+
+Behavioral patterns are design patterns that deal with the behavior and communication between objects. They focus on the interactions between objects and how they operate together to achieve a certain goal.
+
+Overall, behavioral patterns are useful for creating flexible and maintainable systems by separating the behavior and responsibilities of objects, and allowing them to interact in a clear and understandable way.
+
+> <a href="#ChainOfResponsibility_Anchor"> Chain of Responsibility </a> <br/>
+> Command Pattern <br/>
+> Iterator Pattern <br/>
+> Mediator  Pattern <br/>
+> Memento Pattern <br/>
+> Observer Patter <br/>
+> State Pattern <br/>
+> Strategy Pattern <br/>
+> Visitor Pattern <br/>
+
+## Creational Patterns
+
+Creational patterns are a type of design pattern that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. They provide a way to create objects while hiding the creation logic, making the code more flexible and easier to maintain.
+
+Overall, creational patterns are useful for creating flexible and maintainable systems by separating the responsibilities of object creation from the rest of the code, and providing a clear and consistent way to create new objects.
+
+> <a href="#ChainOfResponsibility_Anchor"> Singleton Pattern </a> <br/>
+> Factory Method Pattern <br/>
+> Iterator Pattern <br/>
+> Abstract Factory Pattern <br/>
+> Builder   Pattern <br/>
+> Prototype  Pattern <br/>
+
 ### <div id="Adapter_Anchor"> Adapter Pattern</div>
 
 The Adapter pattern is a structural design pattern that allows incompatible objects to collaborate. It acts as a bridge between two incompatible interfaces, allowing them to work together without the need to modify their source code.
