@@ -42,7 +42,7 @@ Creational patterns are a type of design pattern that deal with object creation 
 
 Overall, creational patterns are useful for creating flexible and maintainable systems by separating the responsibilities of object creation from the rest of the code, and providing a clear and consistent way to create new objects.
 
-> <a name="#ChainOfResponsibility_Anchor"> Singleton Pattern </a> <br/>
+> <a name="#Chain_Anchor"> Singleton Pattern </a> <br/>
 > Factory Method Pattern <br/>
 > Iterator Pattern <br/>
 > Abstract Factory Pattern <br/>
