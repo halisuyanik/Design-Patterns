@@ -20,7 +20,7 @@ Structural patterns typically involve the use of inheritance and composition to 
 > Flweight Patter <br/>
 > Proxy Pattern <br/>
 
-### <div class="adapterCapa"> Adapter Pattern</div>
+### <div id="adapterCapa"> Adapter Pattern</div>
 
 The Adapter pattern is a structural design pattern that allows incompatible objects to collaborate. It acts as a bridge between two incompatible interfaces, allowing them to work together without the need to modify their source code.
 
