@@ -56,3 +56,11 @@ The Adapter pattern is a structural design pattern that allows incompatible obje
 The Adapter pattern is particularly useful when you need to integrate an existing class into a new system or when you want to use an existing class that doesn't have the interface you need.
 
 The pattern involves creating a new adapter class that implements the required interface and adapts the methods of the incompatible class to the new interface. The adapter class acts as a translator, converting the method calls from the new system into calls that the incompatible class can understand.
+
+### Singleton Pattern
+
+Singleton pattern is a creational design pattern that ensures a class has only one instance, while providing a global point of access to this instance. This means that there is a single instance of the class, and all clients that need to use the class will use this same instance. The purpose of the Singleton pattern is to control object creation, limiting the number of instances to one and providing a way to access that instance globally.
+
+This pattern is useful when we need to ensure that there is only one instance of a class throughout the lifetime of an application. Examples of this could include a logging service, a database connection, or a configuration manager. In these cases, having multiple instances of the class could cause issues such as conflicting data, performance problems, or increased memory usage.
+
+To implement the Singleton pattern, we typically use a private constructor to prevent direct instantiation of the class, a private static variable to hold the single instance of the class, and a public static method to provide access to this instance. The public static method checks if an instance already exists and returns it if it does, or creates a new instance if it does not. This ensures that only one instance of the class exists and is used throughout the application.
