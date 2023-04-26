@@ -64,3 +64,9 @@ Singleton pattern is a creational design pattern that ensures a class has only o
 This pattern is useful when we need to ensure that there is only one instance of a class throughout the lifetime of an application. Examples of this could include a logging service, a database connection, or a configuration manager. In these cases, having multiple instances of the class could cause issues such as conflicting data, performance problems, or increased memory usage.
 
 To implement the Singleton pattern, we typically use a private constructor to prevent direct instantiation of the class, a private static variable to hold the single instance of the class, and a public static method to provide access to this instance. The public static method checks if an instance already exists and returns it if it does, or creates a new instance if it does not. This ensures that only one instance of the class exists and is used throughout the application.
+
+### Strategy Pattern
+
+The strategy pattern is a behavioral design pattern that enables the selection of an algorithm at runtime from a family of related algorithms. It allows clients to choose the algorithm that best suits their needs and to switch between them easily. The strategy pattern is particularly useful when there are several interchangeable variations of an algorithm, which can be encapsulated in a set of classes implementing a common interface.
+
+In summary, the strategy pattern provides a flexible and dynamic way to encapsulate algorithm behavior, making it easier to maintain and extend code over time.
