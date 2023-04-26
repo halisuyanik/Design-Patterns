@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33423.256
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{00E350E8-120D-40D2-B201-698E0350B2C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{00E350E8-120D-40D2-B201-698E0350B2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPattern", "SingletonDesignPattern\SingletonDesignPattern.csproj", "{83F20510-35C3-4B54-BF2C-3AAF164AB757}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{00E350E8-120D-40D2-B201-698E0350B2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00E350E8-120D-40D2-B201-698E0350B2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00E350E8-120D-40D2-B201-698E0350B2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F20510-35C3-4B54-BF2C-3AAF164AB757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F20510-35C3-4B54-BF2C-3AAF164AB757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F20510-35C3-4B54-BF2C-3AAF164AB757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F20510-35C3-4B54-BF2C-3AAF164AB757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
