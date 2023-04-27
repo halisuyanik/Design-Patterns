@@ -70,3 +70,7 @@ To implement the Singleton pattern, we typically use a private constructor to pr
 The strategy pattern is a behavioral design pattern that enables the selection of an algorithm at runtime from a family of related algorithms. It allows clients to choose the algorithm that best suits their needs and to switch between them easily. The strategy pattern is particularly useful when there are several interchangeable variations of an algorithm, which can be encapsulated in a set of classes implementing a common interface.
 
 In summary, the strategy pattern provides a flexible and dynamic way to encapsulate algorithm behavior, making it easier to maintain and extend code over time.
+
+### Builder Pattern
+
+The Builder pattern is a creational design pattern that allows you to create complex objects step by step. It separates the construction of an object from its representation, making it easier to create and customize different representations of the same object.
