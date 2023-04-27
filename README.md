@@ -74,3 +74,7 @@ In summary, the strategy pattern provides a flexible and dynamic way to encapsul
 ### Builder Pattern
 
 The Builder pattern is a creational design pattern that allows you to create complex objects step by step. It separates the construction of an object from its representation, making it easier to create and customize different representations of the same object.
+
+### Observer Pattern
+
+Observer design pattern is a behavioral pattern that defines a one-to-many dependency between objects, where a change in one object (the subject) will notify all of its dependents (observers) and update them automatically. The observer pattern is used when we need to maintain consistency between related objects without tightly coupling them.
