@@ -78,3 +78,7 @@ The Builder pattern is a creational design pattern that allows you to create com
 ### Observer Pattern
 
 Observer design pattern is a behavioral pattern that defines a one-to-many dependency between objects, where a change in one object (the subject) will notify all of its dependents (observers) and update them automatically. The observer pattern is used when we need to maintain consistency between related objects without tightly coupling them.
+
+### Proxy Pattern
+
+Proxy design pattern is a structural pattern that allows for an object to act as a stand-in or placeholder for another object. This can be useful in situations where creating the real object is resource-intensive or where it's necessary to control access to the real object. The Proxy pattern provides a way to create a surrogate for an object and allows for additional functionality to be provided before or after the real object operation.
