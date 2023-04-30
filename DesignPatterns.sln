@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDesignPattern", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDesignPattern", "StrategyDesignPattern\StrategyDesignPattern.csproj", "{6F936D30-DCF4-4BDF-8F0E-DC7CB3468DF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPattern", "BuilderDesignPattern\BuilderDesignPattern.csproj", "{DAE61900-13AE-4666-BFC2-00D2ECB0B8AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDesignPattern", "BuilderDesignPattern\BuilderDesignPattern.csproj", "{DAE61900-13AE-4666-BFC2-00D2ECB0B8AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesignPattern", "ObserverDesignPattern\ObserverDesignPattern.csproj", "{95B0DD40-97A6-4C62-8931-3C3E390E2510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesignPattern", "ObserverDesignPattern\ObserverDesignPattern.csproj", "{95B0DD40-97A6-4C62-8931-3C3E390E2510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyDesignPattern", "ProxyDesignPattern\ProxyDesignPattern.csproj", "{74BADD6A-5140-4C2A-8A5C-8BA3E4B49996}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{95B0DD40-97A6-4C62-8931-3C3E390E2510}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B0DD40-97A6-4C62-8931-3C3E390E2510}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B0DD40-97A6-4C62-8931-3C3E390E2510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BADD6A-5140-4C2A-8A5C-8BA3E4B49996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BADD6A-5140-4C2A-8A5C-8BA3E4B49996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BADD6A-5140-4C2A-8A5C-8BA3E4B49996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BADD6A-5140-4C2A-8A5C-8BA3E4B49996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
