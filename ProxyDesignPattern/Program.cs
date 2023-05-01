@@ -8,8 +8,7 @@ namespace ProxyDesignPattern
     {
         static void Main(string[] args)
         {
-            var realFileUploader =new RealFileUploader();
-            var fileUploaderProxy = new FileUploaderProxy(realFileUploader);
+            var fileUploaderProxy = new FileUploaderProxy(new RealFileUploader());
             fileUploaderProxy.FileUpload("desktop");
             fileUploaderProxy.FileUpload("desktop");
             fileUploaderProxy.FileUpload("desktop");
