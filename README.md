@@ -1,5 +1,5 @@
-# <div align="center"> Design Patterns</div> <div align="right">[TR](#design-patterns-tr)</div>
-
+#### <div align="right">[TR](#design-patterns-tr)</div>
+# <div align="center"> Design Patterns</div>
 
 Design patterns refer to reusable solutions to common problems that occur during software design and development. These patterns have been identified and documented by experts in the field of software development and are intended to help developers create robust and maintainable software systems.
 
